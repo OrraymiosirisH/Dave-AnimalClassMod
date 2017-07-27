@@ -20,6 +20,17 @@ return "A bird eats...";
 }
 
 
+@Override
+public String Hunt() {
+	return "A Bird Hunts...";
+}
+
+@Override
+public String Reproduce() {
+	return "A Bird Reproduces...";
+}
+
+
 public String fly()
 {
 //Birds can fly but other animals can't so this method

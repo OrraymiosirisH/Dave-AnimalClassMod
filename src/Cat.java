@@ -19,6 +19,16 @@ public String eat() {
 	return "A cat eats...";
 }
 
+@Override
+public String Hunt() {
+	return "A Cat Hunts...";
+}
+
+@Override
+public String Reproduce() {
+	return "A Cat Reproduces...";
+}
+
 public String purr(){
 	return "purrr...";
 }

@@ -11,6 +11,17 @@ public class Animal {
 	}
 	public String eat() {
 		return "An animal eats...";
+	
 	}
+
+	public String Hunt() {
+		return "An animal Hunts...";
+
+	}
+	public String Reproduce() {
+		return "An animals reproduce ...";
+	}
+
+
 }
 
